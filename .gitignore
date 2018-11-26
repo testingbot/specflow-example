@@ -1,0 +1,9 @@
+packages/
+bin
+obj
+*.user
+*.suo
+*.html
+*.txt
+*.xml
+*.features.cs
