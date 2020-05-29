@@ -8,7 +8,6 @@ This example demonstrates how to use SpecFlow to run a test in parallel across s
 1. Global Dependencies
     * MS Visual Studio 2015 or later.
     * Install the SpecFlow extension in Visual Studio
-    ```
 
 2. TestingBot Credentials
     * Add your TestingBot Key and Secret as environmental variables. You can find these in the [TestingBot Dashboard](https://testingbot.com/members/).
@@ -22,8 +21,6 @@ This example demonstrates how to use SpecFlow to run a test in parallel across s
 	* Open the solution `SpecFlow-TestingBot.sln` in Visual Studio 2015 or higher
 	* Build the solution
 	* Update `App.config` file with your [TestingBot Key and Secret](https://testingbot.com/members/)
-
-    ```
 
 ### Running your tests from Test Explorer via NUnit Test Adapter
 - To run a single test, run test with fixture `single`
