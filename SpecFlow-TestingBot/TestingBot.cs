@@ -28,7 +28,7 @@ namespace SpecFlow_TestingBot
     [AfterScenario]
     public void AfterScenario()
     {
-      tbsDriver.Cleanup();
+      tbDriver.Cleanup();
     }
   }
 
